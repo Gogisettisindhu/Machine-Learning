@@ -1,0 +1,149 @@
+Microsoft Windows [Version 10.0.22631.5472]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>python -m venv env
+
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>
+C:\Users\HP\Desktop\task-1>cd env
+
+C:\Users\HP\Desktop\task-1\env>cd Scripts
+
+C:\Users\HP\Desktop\task-1\env\Scripts>activate
+
+(env) C:\Users\HP\Desktop\task-1\env\Scripts>cd..
+
+(env) C:\Users\HP\Desktop\task-1\env>cd..
+
+(env) C:\Users\HP\Desktop\task-1>pip install django
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x000001CB5B68F520>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/django/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x000001CB5B68F850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/django/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x000001CB5B68FAF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/django/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x000001CB5B68FCA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/django/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x000001CB5B68FE50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/django/
+ERROR: Could not find a version that satisfies the requirement django (from versions: none)
+ERROR: No matching distribution found for django
+
+(env) C:\Users\HP\Desktop\task-1>pip install django
+Collecting django
+  Using cached django-5.2.3-py3-none-any.whl (8.3 MB)
+Collecting asgiref>=3.8.1
+  Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
+Collecting tzdata
+  Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Collecting sqlparse>=0.3.1
+  Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Collecting typing-extensions>=4
+  Using cached typing_extensions-4.14.0-py3-none-any.whl (43 kB)
+Installing collected packages: tzdata, typing-extensions, sqlparse, asgiref, django
+Successfully installed asgiref-3.8.1 django-5.2.3 sqlparse-0.5.3 typing-extensions-4.14.0 tzdata-2025.2
+
+[notice] A new release of pip is available: 23.0.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(env) C:\Users\HP\Desktop\task-1>django-admin startproject server
+
+(env) C:\Users\HP\Desktop\task-1>cd server
+
+(env) C:\Users\HP\Desktop\task-1\server>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 01, 2025 - 09:24:37
+Django version 5.2.3, using settings 'server.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[01/Jul/2025 09:24:51] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[01/Jul/2025 09:24:51] "GET /favicon.ico HTTP/1.1" 404 2208
+
+(env) C:\Users\HP\Desktop\task-1\server>python manage.py startapp Accounts
+
+(env) C:\Users\HP\Desktop\task-1\server>
+
+
+
+
+
+
+DAY3:
+Microsoft Windows [Version 10.0.26100.4061]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP\Desktop\DAY3>cd Nirula
+
+C:\Users\HP\Desktop\DAY3\Nirula>cd scripts
+
+C:\Users\HP\Desktop\DAY3\Nirula\Scripts>activate
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts>django-admin startProject server
+No Django settings specified.
+Unknown command: 'startProject'. Did you mean startproject?
+Type 'django-admin help' for usage.
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts>django-admin startproject server
+CommandError: 'C:\Users\HP\Desktop\DAY3\Nirula\Scripts\server' already exists
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts>django-admin Startproject server
+No Django settings specified.
+Unknown command: 'Startproject'. Did you mean startproject?
+Type 'django-admin help' for usage.
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts>django-admin startproject server
+CommandError: 'C:\Users\HP\Desktop\DAY3\Nirula\Scripts\server' already exists
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts>django-admin startproject mlsever
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts>cd mlsever
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts\mlsever>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 02, 2025 - 11:34:19
+Django version 5.2.3, using settings 'mlsever.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+
+(Nirula) C:\Users\HP\Desktop\DAY3\Nirula\Scripts\mlsever>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 02, 2025 - 11:34:50
+Django version 5.2.3, using settings 'mlsever.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[02/Jul/2025 11:34:57] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[02/Jul/2025 11:34:57,285] - Broken pipe from ('127.0.0.1', 59149)
+[02/Jul/2025 11:34:57] "GET / HTTP/1.1" 200 12068
